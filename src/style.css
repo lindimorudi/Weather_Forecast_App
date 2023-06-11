@@ -1,0 +1,125 @@
+body{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+h2{
+    color:gray;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+small{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+em{
+    font-size: 15px;
+}
+.weather{
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-transform:capitalize ;
+}
+.date{
+    font-size: 15px;
+}
+
+#icon-description{
+    margin-bottom: 18px;
+    display: inline-block;
+    height: 60px;
+    vertical-align: top;
+    width: 60px;
+}
+a #celsius-link{
+   text-decoration: none;
+   color: gray;
+}
+a #fahrenheit-link{
+   text-decoration: none;
+   color: gray;
+}
+.weather-app {
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.cityName{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+ 
+#search-location {
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    background-color: skyblue;
+    color: white;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -60px;
+    padding: 8px;   
+}
+#number{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+div #weather-measures{
+    font-size: 13px;
+    padding-top: 12px
+}
+#humidity{
+    font-size: 13px;
+}
+#windspeed{
+    font-size: 13px;
+}
+.float-left {
+    float: left !important;
+  }
+  .units {
+    position: relative;
+    top: -18px;
+  }
+  .float-left .active {
+    color: black;
+    cursor: default;
+  }
+  .float-left .active:hover {
+    text-decoration: none;
+  }
+  .weather-forecast{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .weather-forecast-temp{
+    font-size: 13px;
+  }
+  #max-temp{
+    color: black;
+    font-weight: 600;
+  }
+  #celsius-link {
+    text-decoration: none;
+  }
+  #fahrenheit-link {
+    text-decoration: none;
+  }
